@@ -23,3 +23,8 @@ artifacts:
     - '**/*'
   base-directory: 'dist'
   discard-paths: yes
+
+# Add a new manual approval stage
+approval:
+  commands:
+    - echo "This is a manual approval step"
